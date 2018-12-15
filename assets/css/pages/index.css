@@ -5,3 +5,147 @@
 .content .intro {
   width: 100%;
 }
+
+.content .intro .carousel-item {
+  height: 100vh;
+}
+.content .intro .carousel-item .img-carousel {
+  height: 100vh;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.content .intro-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content .intro-content .intro {
+  color: white;
+}
+
+.content .intro-content .intro h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3.5rem;
+}
+
+.content .intro-content .search {
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.content .intro-content .search .input-group-text {
+  background-color: rgb(255, 255, 255);
+  border: 0 1px solid #ccc;
+}
+
+.content .intro-content .search .btn-search {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.content .intro-content .search .input-search {
+  border: 0;
+}
+
+.content .intro-content .search .input-city {
+  border-radius: 0 3px 3px 0;
+}
+
+.content .sub-menu {
+  color: white;
+  margin-top: -150px;
+}
+
+.content .sub-menu .cards-menu {
+  margin-top: 30px;
+}
+
+.content .sub-menu .cards-menu .card.cards-submenu {
+  background-color: rgb(40, 40, 40);
+  width: 10rem;
+  margin: 0 10px;
+  padding: 10px 5px;
+  box-shadow: 5px 5px 11px 0px rgba(40, 40, 40, 0.5);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.content .sub-menu .cards-menu .card.cards-submenu:hover {
+  transform: scale(1.2);
+}
+
+.content .main-content {
+  margin-top: 120px;
+}
+
+.content .main-content .title {
+  margin: 50px 0;
+}
+
+.content .main-content .destination .cards-destination {
+  padding: 10px 5px;
+  box-shadow: 5px 5px 11px 0px rgba(40, 40, 40, 0.5);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -40px;
+  border-radius: 8px;
+  color: #fff;
+  border: 0;
+}
+
+.content .main-content .destination .cards-destination h2 {
+  margin-top: -10px;
+}
+
+.content .main-content .destination .cards-destination:hover {
+  transform: scale(1.1);
+  z-index: 5;
+}
+
+.content .main-content .destination .cards-destination.destination1 {
+  background-image: url("/assets/images/destination/des1.jpg");
+}
+.content .main-content .destination .cards-destination.destination2 {
+  background-image: url("/assets/images/destination/des2.jpg");
+}
+.content .main-content .destination .cards-destination.destination3 {
+  background-image: url("/assets/images/destination/des3.jpg");
+}
+.content .main-content .destination .cards-destination.destination4 {
+  background-image: url("/assets/images/destination/des4.jpg");
+}
+.content .main-content .destination .cards-destination.destination5 {
+  background-image: url("/assets/images/destination/des5.jpg");
+}
+.content .main-content .destination .cards-destination.destination6 {
+  background-image: url("/assets/images/destination/des6.jpg");
+}
+
+.content .reason {
+  background-color: #e7e7e7;
+  padding: 10px 0 30px;
+}

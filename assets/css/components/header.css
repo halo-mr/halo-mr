@@ -1,11 +1,17 @@
 .header {
   height: 70px;
   width: 100%;
+  font-family: "Roboto", sans-serif;
   transition: all 1s ease;
+}
+
+.transition {
+  transition: all 2s ease;
 }
 
 .header.header-absolute {
   position: absolute;
+  top: 20px;
   background-color: transparent;
   z-index: 10;
 }
@@ -38,15 +44,17 @@
   top: 10px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 5px 5px 11px 0px rgba(158, 158, 158, 0.5);
+  border-color: rgba(0, 0, 0, 0.14);
+  box-shadow: 5px 5px 11px 0px rgba(40, 40, 40, 0.5);
 }
 
 .header.header-fixed .nav-item {
   margin-right: 1rem;
+  height: 100%;
 }
 
 .header.header-fixed .nav-link {
-  color: #282828;
+  color: #3a3a3a;
   font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -54,14 +62,14 @@
   transition: all 0.5s;
 }
 
-.header.header-fixed .nav-item:hover {
-  border-bottom-color: #282828;
+.header.header-fixed .nav-link:hover {
+  color: #000;
 }
 
-.header.header-fixed .nav-item.focus,
-.header.header-fixed .nav-item:focus {
+.header.header-fixed .nav-link.focus,
+.header.header-fixed .nav-link:focus {
   outline: none;
-  border-bottom-color: #282828;
+  color: #000;
 }
 
 .header #menu-navbar {
