@@ -1,8 +1,13 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   height: 70px;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 
 .transition {
@@ -40,8 +45,8 @@
 
 .header.header-fixed {
   position: fixed;
-  width: 85%;
-  top: 10px;
+  width: 100%;
+  /* top: 10px; */
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.9);
   border-color: rgba(0, 0, 0, 0.14);

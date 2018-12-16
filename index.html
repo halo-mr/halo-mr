@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker|Roboto:400,500,700"
+      href="https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker|Roboto:400,500,700|Dancing+Script:400,700"
       rel="stylesheet"
     />
     <link
@@ -24,33 +24,35 @@
     <link rel="stylesheet" href="/assets/css/index.css" />
   </head>
   <body>
-    <header class="navbar navbar-expand-lg header header-absolute" id="header">
-      <div class="container">
-        <img
-          class="navbar-brand transition d-block"
-          id="logo-absolute"
-          src="/assets/images/logo-top.png"
-          width="140px"
-          alt=""
-        /><img
-          class="navbar-brand transition d-none"
-          id="logo-fixed"
-          src="/assets/images/logo.png"
-          width="140px"
-          alt=""
-        />
-        <div class="collapse navbar-collapse" id="menu-navbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg header header-absolute" id="header">
+        <div class="container">
+          <img
+            class="navbar-brand transition d-block"
+            id="logo-absolute"
+            src="/assets/images/logo-top.png"
+            width="140px"
+            alt=""
+          /><img
+            class="navbar-brand transition d-none"
+            id="logo-fixed"
+            src="/assets/images/logo.png"
+            width="140px"
+            alt=""
+          />
+          <div class="collapse navbar-collapse" id="menu-navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <main class="content">
       <div class="intro">
@@ -320,31 +322,35 @@
           </div>
         </div>
         <div class="el-swap-black"></div>
-        <div class="payment">
+        <div class="partner">
           <div class="container">
             <div class="row">
               <div class="col-6">
                 <img src="/assets/images/payment.png" width="100%" alt="Payment Explore-Indonesian">
               </div>
-              <div class="col-5" style="margin-left: 30px">
-                <h1>Payment Partner</h1>
-                <p>
-                  To facilitate your transactions, Explore Indonesian provides a variety of payment methods that can be selected according to your wishes. You can determine the payment method according to your needs and adjust it to your reach.
-                </p>
-                <p>
-                  Explore Indonesian provides payments through retail outlets that work together including, Alfamart / Alfamidi / Alfa Express / Lawson / Ceriamart / Dan + Dan, Indomaret, Kioson.
-                </p>
-                <p>
-                  However, if you want to make an instant payment, you can use BCA KLikPay, BCA Virtual Account, BNI Virtual Account, BNI Virtual Account, e-Pay BRI, BRI Virtual Account, Danamon Virtual Account, Mandiri Virtual Account, Mandiri e-Cash, Mandiri ClickPay, Credit Cards, and Installments.  
-                </p>
+              <div class="col-5 d-flex align-items-center" style="margin-left: 30px">
+                <div>
+                  <h1>Payment Partner</h1>
+                  <p>
+                    To facilitate your transactions, Explore Indonesian provides a variety of payment methods that can be selected according to your wishes. You can determine the payment method according to your needs and adjust it to your reach.
+                  </p>
+                  <p>
+                    Explore Indonesian provides payments through retail outlets that work together including, Alfamart / Alfamidi / Alfa Express / Lawson / Ceriamart / Dan + Dan, Indomaret, Kioson.
+                  </p>
+                  <p>
+                    However, if you want to make an instant payment, you can use BCA KLikPay, BCA Virtual Account, BNI Virtual Account, BNI Virtual Account, e-Pay BRI, BRI Virtual Account, Danamon Virtual Account, Mandiri Virtual Account, Mandiri e-Cash, Mandiri ClickPay, Credit Cards, and Installments.  
+                  </p>
+                </div>
               </div>
             </div>
             <div class="row" style="margin-top: 100px">
-              <div class="col-5">
+              <div class="col-5 d-flex align-items-center">
+                <div>
                   <h1>Our Partner</h1>
                   <p>
                     You are our priority. Therefore we work with various providers of transportation services, hotel chains and entertainment providers to ensure that your trip is always comfortable and enjoyable, wherever you go.
                   </p>
+                </div>
               </div>
               <div class="col-6 offset-1">
                   <img src="/assets/images/partner.svg" width="100%" alt="Partner Explore-Indonesian">
@@ -354,6 +360,40 @@
         </div>
       </div>
     </main>
+    <footer>
+        <div class="el-swap-w-gray"></div>   
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 text-center">
+                <h1>MORE <b>INFORMATION</b> ?</h1>
+              </div>
+              <div class="col-3 offset-1">
+                <h3>SUPPORT</h3>
+                <a href="">
+                  <h6>FAQ</h6>
+                </a>
+                <a href="">
+                  <h6>Privacy Policy</h6>
+                </a>
+                <a href="">
+                  <h6>Terms & Conditions</h6>
+                </a>
+              </div>
+              <div class="col-3">
+                <h3>CUSTOMER SERVICE</h3>
+                <h6>No.Telp: 0812 3434 7658</h6>
+                <h6>Email: exploreindonesia@support.id</h6>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-footer">
+            <div class="background">
+              <h1>#You only live once</h1>
+            </div>
+          </div>
+        </div>   
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -375,7 +415,7 @@
         const header = $("#header");
         const logoAbsolute = $("#logo-absolute");
         const logoFixed = $("#logo-fixed");
-        if ($(window).scrollTop() >= 1) {
+        if ($(window).scrollTop() >= 10) {
           header.removeClass("header-absolute").addClass("header-fixed");
           logoAbsolute.removeClass("d-block").addClass("d-none");
           logoFixed.removeClass("d-none").addClass("d-block");

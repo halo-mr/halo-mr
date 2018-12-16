@@ -15,9 +15,9 @@ body {
   margin: 0;
   /* font-family: "Roboto", sans-serif; */
   font-family: "Patrick Hand", cursive;
-  background-color: #fafafa;
-  display: flex;
-  justify-content: center;
+  /* background-color: #fafafa; */
+  /* display: flex;
+  justify-content: center; */
 }
 
 .row {
