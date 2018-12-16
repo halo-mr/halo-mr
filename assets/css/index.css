@@ -6,6 +6,8 @@
 @import url("./pages/index.css");
 
 /* universal */
+@import url("./buttons.css");
+
 body {
   height: 100%;
   min-height: 100vh;
@@ -30,7 +32,7 @@ body {
   width: 100%;
   height: 135px;
   margin-bottom: -3px;
-  margin-top: -65px;
+  margin-top: -135px;
   z-index: 4;
 }
 
@@ -41,7 +43,7 @@ body {
   width: 100%;
   height: 135px;
   margin-bottom: -3px;
-  margin-top: -65px;
+  margin-top: -135px;
   z-index: 4;
 }
 
@@ -51,7 +53,17 @@ body {
   background-size: 100% 100%;
   width: 100%;
   height: 135px;
-  margin-top: -65px;
+  margin-top: -135px;
+  margin-bottom: -3px;
+  z-index: 4;
+}
+.el-swap-w-gray {
+  background-image: url("/assets/images/el-swap-w-gray.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 135px;
+  margin-top: -135px;
   margin-bottom: -3px;
   z-index: 4;
 }

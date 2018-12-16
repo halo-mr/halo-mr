@@ -43,9 +43,9 @@
   width: 85%;
   top: 10px;
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   border-color: rgba(0, 0, 0, 0.14);
-  box-shadow: 5px 5px 11px 0px rgba(40, 40, 40, 0.5);
+  box-shadow: 5px 5px 11px 0px rgba(151, 151, 151, 0.502);
 }
 
 .header.header-fixed .nav-item {
@@ -63,13 +63,15 @@
 }
 
 .header.header-fixed .nav-link:hover {
-  color: #000;
+  border-bottom-color: #282828;
+  color: #282828;
 }
 
 .header.header-fixed .nav-link.focus,
 .header.header-fixed .nav-link:focus {
   outline: none;
-  color: #000;
+  color: #282828;
+  border-bottom-color: #282828;
 }
 
 .header #menu-navbar {
