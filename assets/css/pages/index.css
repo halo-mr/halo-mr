@@ -1,7 +1,3 @@
-.content {
-  width: 100%;
-}
-
 .content .intro {
   width: 100%;
 }
@@ -93,7 +89,7 @@
 }
 
 .content .sub-menu .cards-menu .card.cards-submenu:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .content .main-content {

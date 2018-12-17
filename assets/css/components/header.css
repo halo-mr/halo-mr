@@ -24,6 +24,9 @@ header {
 .header.header-absolute .nav-item {
   margin-right: 1rem;
 }
+.header.header-absolute .nav-item.active {
+  border-bottom: 1px solid #fff;
+}
 
 .header.header-absolute .nav-link {
   color: #fff;
@@ -56,6 +59,10 @@ header {
 .header.header-fixed .nav-item {
   margin-right: 1rem;
   height: 100%;
+}
+
+.header.header-fixed .nav-item.active {
+  border-bottom: 1px solid #282828;
 }
 
 .header.header-fixed .nav-link {

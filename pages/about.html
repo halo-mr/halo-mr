@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Explore-Indonesian</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker|Roboto:400,500,700|Dancing+Script:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg header header-absolute" id="header">
+        <div class="container">
+          <img
+            class="navbar-brand transition d-block"
+            id="logo-absolute"
+            src="/assets/images/logo-top.png"
+            width="140px"
+            alt=""
+          /><img
+            class="navbar-brand transition d-none"
+            id="logo-fixed"
+            src="/assets/images/logo.png"
+            width="140px"
+            alt=""
+          />
+          <div class="collapse navbar-collapse" id="menu-navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="about-intro">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 d-flex logo justify-content-center align-items-center"
+            >
+              <img
+                src="/assets/images/logo-font-white.png"
+                width="50%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="el-swap-w-gray"></div>
+      <div class="about-main-content"></div>
+      <div class="el-swap-black"></div>
+      <div class="about-developer"></div>
+    </main>
+    <footer>
+      <div class="el-swap-w-gray"></div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 text-center">
+              <h1>MORE <b>INFORMATION</b> ?</h1>
+            </div>
+            <div class="col-3 offset-1">
+              <h3>SUPPORT</h3>
+              <a href=""> <h6>FAQ</h6> </a>
+              <a href=""> <h6>Privacy Policy</h6> </a>
+              <a href=""> <h6>Terms & Conditions</h6> </a>
+            </div>
+            <div class="col-3">
+              <h3>CUSTOMER SERVICE</h3>
+              <h6>No.Telp: 0812 3434 7658</h6>
+              <h6>Email: exploreindonesia@support.id</h6>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <div class="background"><h1>#youonlyliveonce</h1></div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(window).scroll(() => {
+        const header = $("#header");
+        const logoAbsolute = $("#logo-absolute");
+        const logoFixed = $("#logo-fixed");
+        if ($(window).scrollTop() >= 18) {
+          header.removeClass("header-absolute").addClass("header-fixed");
+          logoAbsolute.removeClass("d-block").addClass("d-none");
+          logoFixed.removeClass("d-none").addClass("d-block");
+        } else {
+          header.removeClass("header-fixed").addClass("header-absolute");
+          logoFixed.removeClass("d-block").addClass("d-none");
+          logoAbsolute.removeClass("d-none").addClass("d-block");
+        }
+      });
+    </script>
+  </body>
+</html>

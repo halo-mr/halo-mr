@@ -43,12 +43,9 @@
           <div class="collapse navbar-collapse" id="menu-navbar">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
+                <a class="nav-link" href="/index.html">Home</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pages/about.html">About</a></li>
             </ul>
           </div>
         </div>
@@ -129,7 +126,7 @@
         </div>
         <div class="sub-menu">
           <div class="row suggest">
-            <div class="col-3 offset-4">
+            <div class="col-3 offset-4 text-center">
               <h5>Just looking around? Let's us suggest you</h5>
               <h5>something hot & happening</h5>
             </div>
@@ -340,6 +337,12 @@
                   <p>
                     However, if you want to make an instant payment, you can use BCA KLikPay, BCA Virtual Account, BNI Virtual Account, BNI Virtual Account, e-Pay BRI, BRI Virtual Account, Danamon Virtual Account, Mandiri Virtual Account, Mandiri e-Cash, Mandiri ClickPay, Credit Cards, and Installments.  
                   </p>
+                  <button class="btn btn-animate btn-animate-vertical btn-warning">
+                    <span>
+                      <i class="icon fas fa-ellipsis-h" aria-hidden="true"></i>
+                      More
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -350,6 +353,12 @@
                   <p>
                     You are our priority. Therefore we work with various providers of transportation services, hotel chains and entertainment providers to ensure that your trip is always comfortable and enjoyable, wherever you go.
                   </p>
+                  <button class="btn btn-animate btn-animate-vertical btn-warning">
+                    <span>
+                      <i class="icon fas fa-ellipsis-h" aria-hidden="true"></i>
+                      More
+                    </span>
+                  </button>
                 </div>
               </div>
               <div class="col-6 offset-1">
@@ -389,7 +398,7 @@
           </div>
           <div class="bottom-footer">
             <div class="background">
-              <h1>#You only live once</h1>
+              <h1>#youonlyliveonce</h1>
             </div>
           </div>
         </div>   
@@ -415,7 +424,7 @@
         const header = $("#header");
         const logoAbsolute = $("#logo-absolute");
         const logoFixed = $("#logo-fixed");
-        if ($(window).scrollTop() >= 10) {
+        if ($(window).scrollTop() >= 18) {
           header.removeClass("header-absolute").addClass("header-fixed");
           logoAbsolute.removeClass("d-block").addClass("d-none");
           logoFixed.removeClass("d-none").addClass("d-block");
